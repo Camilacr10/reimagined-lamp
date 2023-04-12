@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felinos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/icono.webp" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid m-0 p-0 "   >
+        <div class="row justify-content-start ">
+            <div class="col-md-6 columna" >
+              
+                <div id="menu" >
+                    <nav class="navbar  navbar-expand-lg  " style="background-color: rgba(70, 70, 70, 0.454);" >
+                    <div class="container-fluid w-0"  >
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <a class="navbar-brand" href="#" ><img  src="img/National-Geographic-logo.webp" alt="Encabezado" width="250px" style="margin-right: 200px;"></a>
+                      <div class="collapse navbar-collapse"  id="navbarTogglerDemo03">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="index.html" style="margin-left: 50px;color: white;">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#Ancla1" style="margin-left: 50px; color: white;">Especies</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#Ancla2" style="margin-left: 50px;color: white;">Habitat</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#Ancla3" style="margin-left: 50px;color: white;">Historia</a>
+                          </li>
+                        </ul>
+                          <form class="container-fluid">
+                            <button type="button" class="btn btn-warning" style="color:white; width: 150px; height: 50px; font-size: 25px; margin-left: 70px;" ><a href="inscribirse.html">Inscribirse</a> </button> 
+                              
+                            </form>
+                            
+                         
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid m-0 p-0 "   >
+       
+        <div class="container  " style="margin-top:190px; background-color: rgba(206, 202, 202, 0.555);" >
+            <div class="col-md-4"><b><p style="font-size: 90px; letter-spacing: 9px; 
+                font-family: 'Playfair Display', serif;">Formulario</p> </b> </div>
+            
+
+	        <form method="post" action="mailto:micorreo@gmail.com" enctype="text/plain">
+	        <div class="titulo"><label>Nombre:</label></div>
+			<div class="formul"><input type="text" name="nombre"></div> <br>
+			
+			<div class="titulo"><label>Teléfono:</label></div> 
+			<div class="formul"><input type="tel" name="Telefono" size="10"></div><br>
+					
+			<div class="titulo"><label>Correo Electrónico:</label></div> 
+			<div class="formul"><input type="email" name="email" size="20" value="@dominio.com"></div> <br>
+		
+			
+			<div class="titulo"><label>Fecha Nacimiento:</label></div>
+			<div class="formul"><input type="date" name="fecha" ></div><br>
+			
+			<div class="titulo"><label>Hora de Nacimiento:</label></div>
+			<div class="formul"><input type="time" name="hora" value="09:00" min="01:00" max="12:00" ></div><br>
+			
+			
+
+	        <div class="titulo">Desea Donar Dinero?</div>
+			<div class="formul">
+				<input type="checkbox" name="Interes" value="si">Si<br>
+				<input type="checkbox" name="Interes" value="No">No<br>
+			</div> <br>
+	        
+	        
+	    
+	        <div class="titulo"><h3>Botones de Radio</h3></div>
+	        <div class="titulo"><label>Género</label></div>
+			<div class="formul">
+				<input type="radio" name="sexo" value="femenino">Femenino<br>
+				<input type="radio" name="sexo" value="masculino">Masculino<br>
+				
+	        </div><br>
+	        
+			<div class="titulo"><label>Pais de Residencia</label></div>
+			<div class="formul">
+	        	<select name="pais" size="4">
+					<option value="CR">Costa Rica</option>
+					<option value="Brasil">Brasil</option>
+					<option value="Panamá">Panamá</option>
+					<option value="Argentina" selected>Argentina</option>
+					<option value="Chile">Chile</option>
+					<option value="Perú">Perú</option>
+                    <option value="Argentina" selected>Colombia</option>
+					<option value="Chile">Nicaragua</option>
+					<option value="Perú">Estados Unidos</option>
+                    <option value="Argentina" selected>Venezuela</option>
+					<option value="Chile">Salvador</option>
+					<option value="Perú">Alemania</option>
+				</select>
+	        </div> <br>
+			
+	        <div class="titulo"><h3>¿Desea dejarnos algún comentario?</h3></div>
+	        <div class="titulo"><label>Comentarios</label></div>
+	        <div class="formul">
+				<textarea name="comentarios"></textarea>
+			</div>
+	        
+	        <div class="titulo"><label>Observaciones</label></div>
+	        <div class="formul">
+				<textarea name="observaciones" rows="7" cols="40">
+				</textarea>
+			</div>
+	        
+	        
+	        
+	        
+
+        </div> </div>
+
+  <div class="container-fluid pt-5">
+    <footer>
+    <p>Derechos Reservados</p>
+    <p>Para más información:</p>
+    <a href="https://www.nationalgeographic.com.es/">National Geographic</a>
+    </footer>
+    
+  </div>
+  
+
+<!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
